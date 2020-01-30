@@ -1,0 +1,45 @@
+1.0.0.6
+2017:01:11:15:33:31.389
+To:James Parsons
+Subject:Microsoft .NET Framework 4.5 %28x86 and x64%29 Update (Version:1.0.0.6)
+Body:
+Hello <NAME>,
+
+Microsoft .NET Framework 4.5 %28x86 and x64%29 has been updated!
+Version: 1.0.0.6
+S:\Geo_Software\IERS_SOFTWARE\PDF_2_PNG\Installation\setup.exe
+
+Thanks,
+James Parsons
+
+
+1.0.0.7
+2017:01:11:15:44:03.342
+To:James Parsons
+Subject:Microsoft .NET Framework 4.5 %28x86 and x64%29 Update (Version:1.0.0.7)
+Body:
+Hello <NAME>,
+
+Microsoft .NET Framework 4.5 %28x86 and x64%29 has been updated!
+Version: 1.0.0.7
+S:\Geo_Software\IERS_SOFTWARE\PDF_2_PNG\Installation\setup.exe
+
+Thanks,
+James Parsons
+
+
+1.0.0.9
+2017:01:11:15:49:18.460
+To:James Parsons
+Subject:PDFConverter Update (Version:1.0.0.9)
+Body:
+Hello <NAME>,
+
+PDFConverter has been updated!
+Version: 1.0.0.9
+S:\Geo_Software\IERS_SOFTWARE\PDF_2_PNG\Installation\setup.exe
+
+Thanks,
+James Parsons
+
+
