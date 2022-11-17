@@ -12,7 +12,7 @@ namespace Docotron
         [STAThread]
         static void Main()
         {
-            ApplicationSetup.SetStartMenuItemAtTopLevel();
+            ApplicationSetup.SetStartMenuItemInPublisherFolder();
             ApplicationSetup.CreateApplicationResourcesPath();
             ApplicationSetup.CreateApplicationRegistry();
 

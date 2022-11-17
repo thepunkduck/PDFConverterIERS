@@ -1,29 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docotron", "PDFConverterIERS\Docotron.csproj", "{E2F17121-F68F-4341-948B-182ECC0FEB59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docotron", "Docotron\Docotron.csproj", "{E2F17121-F68F-4341-948B-182ECC0FEB59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hjg.Pngcs", "..\..\pngcs_1_1_4_src\pngcs_1_1_4\src\Hjg.Pngcs\Hjg.Pngcs.csproj", "{FD3B0D50-46B3-4A83-9A6D-C641569142CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hjg.Pngcs", "..\pngcs_1_1_4_src\pngcs_1_1_4\src\Hjg.Pngcs\Hjg.Pngcs.csproj", "{FD3B0D50-46B3-4A83-9A6D-C641569142CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		KarRelease|Any CPU = KarRelease|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E2F17121-F68F-4341-948B-182ECC0FEB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E2F17121-F68F-4341-948B-182ECC0FEB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2F17121-F68F-4341-948B-182ECC0FEB59}.KarRelease|Any CPU.ActiveCfg = Release|Any CPU
-		{E2F17121-F68F-4341-948B-182ECC0FEB59}.KarRelease|Any CPU.Build.0 = Release|Any CPU
 		{E2F17121-F68F-4341-948B-182ECC0FEB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2F17121-F68F-4341-948B-182ECC0FEB59}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FD3B0D50-46B3-4A83-9A6D-C641569142CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FD3B0D50-46B3-4A83-9A6D-C641569142CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD3B0D50-46B3-4A83-9A6D-C641569142CF}.KarRelease|Any CPU.ActiveCfg = Release|Any CPU
-		{FD3B0D50-46B3-4A83-9A6D-C641569142CF}.KarRelease|Any CPU.Build.0 = Release|Any CPU
 		{FD3B0D50-46B3-4A83-9A6D-C641569142CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD3B0D50-46B3-4A83-9A6D-C641569142CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection

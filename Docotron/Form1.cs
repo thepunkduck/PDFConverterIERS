@@ -507,7 +507,7 @@ namespace Docotron
                             if (_isPageNumberRequired(pageNumber))
                             {
                                 string pageFilePath = outputPath + "_" + pageNumber.ToString("000") + _imageExt;
-                                Image img = rasterizer.GetPage(_dpi, _dpi, pageNumber);
+                                Image img = rasterizer.GetPage(_dpi, pageNumber);
                                 img.Save(pageFilePath, _imageFmt);
                                 _outputToInfo(img);
                                 _outputToInfo("  " + Path.GetFileName(pageFilePath));
@@ -535,7 +535,7 @@ namespace Docotron
                             if (_isPageNumberRequired(pageNumber))
                             {
                                 string pageFilePath = Path.Combine(outputPath, prefix + "_" + pageNumber.ToString() + ".png");
-                                Image img = rasterizer.GetPage(_dpi, _dpi, pageNumber);
+                                Image img = rasterizer.GetPage(_dpi, pageNumber);
                                 img.Save(pageFilePath, ImageFormat.Png);
                                 _outputToInfo(img);
                                 pathList.Add(pageFilePath);
@@ -781,6 +781,11 @@ namespace Docotron
     //        this.Text = ApplicationSetup.GetFormattedTitleText(null);
         }
 
+        public void ShutdownApp()
+        {
+            Close();
+        }
+
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -792,7 +797,7 @@ namespace Docotron
                 CopyrightOwner = Application.CompanyName,
                 Email = "jparsons@quantiseal.com",
                 Credits = "Development Team:\n James Parsons",
-                LicenceInfo = "Licenced to: " + TimeLicence.LicenceOwner + "\n\n" + TimeLicence.Report,
+                LicenseInfo = "Licenced to: " + TimeLicence.LicenceOwner + "\n\n" + TimeLicence.Report,
                 UseAssemblyVersion = true,
             };
             dlg.ShowDialog(this);

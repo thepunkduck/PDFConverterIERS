@@ -16,7 +16,7 @@
     <PublishUrl>C:\Users\James\Dropbox\Quantiseal Shared2\SOFTWARE\Docotron\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateEnabled>false</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
@@ -54,10 +54,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>41259E6986350B808BE0534EFD2D3D95612CD30E</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>EEF2514B9761229254C6B5AD94604D65C4C78A9D</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Docotron_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>Docotron_2_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -76,23 +76,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ApplicationNiceties">
-      <HintPath>..\..\..\ApplicationNicities\bin\Release\ApplicationNiceties.dll</HintPath>
+      <HintPath>..\..\ApplicationNicities\bin\Release\ApplicationNiceties.dll</HintPath>
     </Reference>
     <Reference Include="ChartLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\ChartLib\bin\Release\ChartLib.dll</HintPath>
+      <HintPath>..\..\ChartLib\bin\Release\ChartLib.dll</HintPath>
     </Reference>
-    <Reference Include="Ghostscript.NET, Version=1.2.1.0, Culture=neutral, PublicKeyToken=f85051de34525b59, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ghostscript.NET.1.2.1\lib\net40\Ghostscript.NET.dll</HintPath>
+    <Reference Include="Ghostscript.NET, Version=1.2.3.0, Culture=neutral, PublicKeyToken=f85051de34525b59, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ghostscript.NET.1.2.3\lib\net40\Ghostscript.NET.dll</HintPath>
     </Reference>
     <Reference Include="IERSInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\IERSInterface\bin\Release\IERSInterface.dll</HintPath>
+      <HintPath>..\..\IERSInterface\bin\Release\IERSInterface.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="QSGeometry, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\QSGeometry\bin\Release\QSGeometry.dll</HintPath>
+      <HintPath>..\..\QSGeometry\bin\Release\QSGeometry.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -105,7 +105,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\StringUtils\bin\Release\Utilities.dll</HintPath>
+      <HintPath>..\..\StringUtils\bin\Release\Utilities.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +131,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Docotron_1_TemporaryKey.pfx" />
+    <None Include="Docotron_2_TemporaryKey.pfx" />
     <None Include="Docotron_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="PDFConverterIERS_TemporaryKey.pfx" />
@@ -170,7 +171,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\pngcs_1_1_4_src\pngcs_1_1_4\src\Hjg.Pngcs\Hjg.Pngcs.csproj">
+    <ProjectReference Include="..\..\pngcs_1_1_4_src\pngcs_1_1_4\src\Hjg.Pngcs\Hjg.Pngcs.csproj">
       <Project>{fd3b0d50-46b3-4a83-9a6d-c641569142cf}</Project>
       <Name>Hjg.Pngcs</Name>
     </ProjectReference>
